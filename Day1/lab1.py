@@ -16,20 +16,22 @@ s = "lmcalecmleamvjbihrbr;alvjrobjroshboarjbroakkbkaprkbvrvkl"
 d = {}
 lst1 = [val for val in s]
 for k in lst1:
-    if k in d.keys():
-        d[k] = d[k] + 1
-    else:
-        d[k] = 1
+    # if k in d.keys():
+    #     d[k] = d[k] + 1
+    # else:
+    #     d[k] = 1
+    d[k] = d.get(k, 0) + 1
 print("============== 3.1 =================")
 print(d)
 
 # 2. build reverse (key <-> value) dic.
 d_rev = {}
 for k1, v1 in d.items():
-    if v1 in d_rev.keys():
-        d_rev[v1].append(k1)
-    else:
-        d_rev[v1] = [k1]
-
+    # if v1 in d_rev.keys():
+    #     d_rev[v1].append(k1)
+    # else:
+    #     d_rev[v1] = [k1]
+    d_rev[v1] = d_rev.get(v1, [])
+    d_rev[v1].append(k1)
 print("============== 3.2 =================")
 print(d_rev)
