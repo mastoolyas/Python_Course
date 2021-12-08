@@ -12,7 +12,12 @@ class StudyBook(book.Book):   # Inaternt from book
         return f"{super().__str__()} target_audience = {self.tar}"
 
 
-sb1 = StudyBook(name="Python for beginners", author="Katia", price=600, pages=789,
-                target_audience="School, 9th grade", include_exercise=True)
-sb1.read(5)
-print(sb1)
+def main():
+    sb1 = StudyBook(name="Python for beginners", author="Katia", price=600, pages=789,
+                    target_audience="School, 9th grade", include_exercise=True)
+    sb1.read(5)
+    print(sb1)
+
+
+if __name__ == "__main__": # main is the running app
+    main()
