@@ -1,5 +1,6 @@
 # Python_Course
 
 ## Day1: 
-Build in Types, strings, strings format, lists, tuples, dictionaroes, sets
+Build in Types, Strings, Strings format, Lists, Tuples, Dictionaroes, Sets
 ## Day2:
+Functions, Local, Global, By ref, By val, Modules, Object Oriented
