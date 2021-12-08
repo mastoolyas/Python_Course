@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /Day1/.idea/workspace.xml
+/Day1/.idea/workspace.xml
+/Day2/.idea/Day2.iml
+/Day2/.idea/modules.xml
+/Day2/.idea/vcs.xml
+/Day2/.idea/workspace.xml
